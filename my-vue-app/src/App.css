@@ -1,0 +1,105 @@
+.App{ 
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ligth{
+    background-color: #f3ebf6;
+
+}
+
+#dark{
+    background-color: #13111b;
+}
+
+body .main{
+    border-radius: 1.5rem;
+    box-shadow: 8px 11px 35px 2px;
+    width: 400px;
+    height: 400px;
+}
+
+#ligth .main{
+    background-color: #fff;
+}
+
+#dark .main{
+    background-color: #281b2d;
+}
+
+.sign{
+    padding-top: 48px;
+    font-size: 23px;
+    font-weight: 700;
+    color:rgb(80, 141, 19);
+    text-align: center;
+}
+
+#ligth .sign{
+    color: darkslateblue;
+}
+
+#dark .sign{
+    color: #fff;
+}
+
+.userName{
+    margin-top: 20px;
+    width: 76%;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.password{
+    margin-top: 20px;
+    width: 76%;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ligth .userName, #ligth .password{
+    color: rgb(38, 58, 56);
+    background-color: rgba(136, 126, 126, 0.84);
+}
+
+#dark .userName, #dark .password{
+    color: rgb(254, 255, 255);
+    background-color: rgba(255, 247, 247, 0.299);
+}
+
+.submit{
+    cursor: pointer;
+    border-radius: 5rem;
+    color: #fff;
+    background-color: darkslateblue;
+    width: 76%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
